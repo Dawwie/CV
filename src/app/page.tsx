@@ -89,15 +89,38 @@ export default function Page() {
               ))}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
+              {RESUME_DATA.contact.social
+                ? RESUME_DATA.contact.social.map((social) => (
+                    <div
+                      className="flex items-center gap-x-2"
+                      key={social.name}
+                    >
+                      <social.icon className="size-4" />
+                      <a href={social.url}>
+                        <span className="underline">
+                          {social.url.replace("https://", "")}
+                        </span>
+                      </a>
+                    </div>
+                  ))
+                : null}
               {RESUME_DATA.contact.email ? (
-                <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                  <span className="underline">{RESUME_DATA.contact.email}</span>
-                </a>
+                <div className="flex items-center gap-x-2">
+                  <MailIcon className="size-4" />
+                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                    <span className="underline">
+                      {RESUME_DATA.contact.email}
+                    </span>
+                  </a>
+                </div>
               ) : null}
               {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
-                </a>
+                <div className="flex items-center gap-x-2">
+                  <PhoneIcon className="size-4" />
+                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                    <span className="underline">{RESUME_DATA.contact.tel}</span>
+                  </a>
+                </div>
               ) : null}
             </div>
           </div>
