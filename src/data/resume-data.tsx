@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "React Native & Fullstack Developer which is passionate about mobile development",
   summary:
-    "Hi there! I'm Dawid, a React Native & Fullstack Developer. I'm passionate about mobile development and I love to learn new things. I'm currently working at STX Next as a Senior React Native Developer. I spend my free time at the gym, electronic music festivals and live comedy stand-ups.",
+    "Hi there! I'm Dawid, a React Native & Fullstack Developer. I'm passionate about mobile development and I love to learn new things. I'm currently working at Pstryk as a Senior React Native Developer. I spend my free time at the gym, padel matches, electronic music festivals and live comedy stand-ups.",
   avatarUrl: require("../images/cv-picture.jpeg"),
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -43,15 +43,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Pstryk",
+      link: "https://www.pstryk.pl/",
+      badges: ["Remote"],
+      title: "Senior React Native Developer",
+      start: "2024",
+      end: "present",
+      description:
+        "Senior React Native Developer with Expo, also maintaining a web application and SPA built in Next.js. Working on an application offering innovative energy solutions for the Polish market — dynamic pricing, real-time electricity consumption and cost monitoring, and intelligent energy management.",
+    },
+    {
       company: "STX Next",
       link: "https://www.stxnext.com/",
       badges: ["Remote"],
       title: "Senior React Native Developer | Python Developer",
       start: "2022",
-      end: "present",
+      end: "2024",
       description:
         "Initially as a Python Developer who was given the opportunity to move into React Native. Development of projects for clients in various sectors like Sports, Medical, Retail, Beauty. Participation in the development of greenfield projects as well as ongoing application development, both in larger teams and individually. Actively contributing to departmental growth through preparing technological presentations and promoting React Native knowledge.",
-      // Assessing new projects and recruiting new members to the team.
     },
     {
       company: "Talex S.A.",
@@ -69,14 +78,42 @@ export const RESUME_DATA = {
     "TypeScript",
     "React/React Native",
     "Expo",
+    "EAS (Expo Application Services)",
+    "Reanimated",
+    "Lottie",
+    "Zustand",
+    "Native Modules",
+    "PostHog",
     "Bitrise",
     "App Store Connect",
     "Google Play Console",
     "Firebase",
     "Python",
     "Django/Fast API",
+    "Claude Code",
   ],
   projects: [
+    {
+      title: "Pstryk (Mobile App)",
+      techStack: ["React Native", "Expo", "Zustand", "Reanimated", "Unistyles", "Lottie", "React Hook Form", "Zod", "EAS"],
+      description:
+        "Mobile application offering innovative energy solutions based on dynamic pricing, real-time electricity consumption and cost monitoring, and intelligent energy management.",
+      link: { href: "https://www.pstryk.pl/" },
+    },
+    {
+      title: "Pstryk (Web App)",
+      techStack: ["Next.js", "React", "Zustand", "Vanilla Extract", "React Query"],
+      description:
+        "Web application offering simplified functionality such as account registration, login, order creation and contract signing.",
+      link: { href: "https://www.pstryk.pl/" },
+    },
+    {
+      title: "Pstryk (LP)",
+      techStack: ["Next.js", "Tailwind", "Prismic", "Amplify", "GSAP"],
+      description:
+        "Landing page for Pstryk — presenting the product offering and acquiring new customers.",
+      link: { href: "https://www.pstryk.pl/" },
+    },
     {
       title: "Veterinary App",
       techStack: [
