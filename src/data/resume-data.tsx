@@ -94,6 +94,27 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Pstryk (Mobile App)",
+      techStack: ["React Native", "Expo", "Zustand", "Reanimated", "Unistyles", "Lottie", "React Hook Form", "Zod", "EAS"],
+      description:
+        "Mobile application offering innovative energy solutions based on dynamic pricing, real-time electricity consumption and cost monitoring, and intelligent energy management.",
+      link: { href: "https://www.pstryk.pl/" },
+    },
+    {
+      title: "Pstryk (Web App)",
+      techStack: ["Next.js", "React", "Zustand", "Vanilla Extract", "React Query"],
+      description:
+        "Web application offering simplified functionality such as account registration, login, order creation and contract signing.",
+      link: { href: "https://www.pstryk.pl/" },
+    },
+    {
+      title: "Pstryk (LP)",
+      techStack: ["Next.js", "Tailwind", "Prismic", "Amplify", "GSAP"],
+      description:
+        "Landing page for Pstryk — presenting the product offering and acquiring new customers.",
+      link: { href: "https://www.pstryk.pl/" },
+    },
+    {
       title: "Veterinary App",
       techStack: [
         "React Native (for Web)",
