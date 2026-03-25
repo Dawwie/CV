@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "React Native & Fullstack Developer which is passionate about mobile development",
   summary:
-    "Hi there! I'm Dawid, a React Native & Fullstack Developer. I'm passionate about mobile development and I love to learn new things. I'm currently working at STX Next as a Senior React Native Developer. I spend my free time at the gym, electronic music festivals and live comedy stand-ups.",
+    "Hi there! I'm Dawid, a React Native & Fullstack Developer. I'm passionate about mobile development and I love to learn new things. I'm currently working at Pstryk as a Senior React Native Developer. I spend my free time at the gym, padel matches, electronic music festivals and live comedy stand-ups.",
   avatarUrl: require("../images/cv-picture.jpeg"),
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
